@@ -1,0 +1,171 @@
+body, html {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+section p {
+  max-width: 55rem;
+}
+
+#app {
+  display: flex;
+  padding: 0.5rem;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  gap: 0.8rem;
+}
+
+nav a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.login-form .field {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-form .field label {
+  min-width: 8rem;
+  padding: 0.5rem;
+}
+
+.login-form .field input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.people {
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.people table {
+  width: 100%;
+}
+
+.people table thead tr {
+  background-color: #f0f0f0;
+}
+
+.people table thead th {
+  text-align: left;
+  padding: 0.2rem;
+}
+
+.people table tbody tf {
+  padding: 0.2rem;
+}
+
+.people table tbody tr {
+  background-color: #fafafa;
+}
+
+.people table tbody tr:nth-child(odd) {
+  background-color: #FFF;
+}
+
+.people .filter {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.people .filter label {
+  padding: 0.5rem;
+}
+
+.people .filter input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-family: monospace;
+  font-size: 1rem;
+  flex-grow: 2;
+}
+
+.person {
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 80vh;
+}
+
+.person .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.person input {
+  border: 0px;
+  font-family: monospace;
+  padding: 0.5rem;
+}
+
+.person .field {
+  display: flex;
+}
+
+.person textarea {
+  flex-grow: 2;
+}
+
+.person label {
+  min-width: 8rem;
+}
+
+.person .notes {
+  border: 0;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.person select {
+  border: 0;
+  font-family: monospace;
+  font-size: 1rem;
+  background: #fff;
+}
+
+.person .num {
+  max-width: 3rem;
+}
